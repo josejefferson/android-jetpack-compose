@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   channel = "stable-23.11";
   packages = [
-    pkgs.jdk17
+    pkgs.jdk19
     pkgs.kotlin
   ];
   idx.extensions = [
